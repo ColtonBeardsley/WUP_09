@@ -67,8 +67,11 @@ subsets(Perch.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 
 ### Best Models
 
+Best Single Model - Height + Width
+
 ### Best Two regressor model
 
+Best Double Model - Height + Width
 
 ## Pike
 
