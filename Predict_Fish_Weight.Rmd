@@ -67,11 +67,11 @@ subsets(Perch.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 
 ### Best Models
 
-Best Single Model - Height + Width
+Best Single Model: Height + Width
 
 ### Best Two regressor model
 
-Best Double Model - Height + Width
+Best Double Model: Height + Width
 
 ## Pike
 
@@ -91,11 +91,11 @@ subsets(Pike.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 
 ### Best Models
 
-Best Model - Complete Model (L1+L2+L3+H+L)
+Best Model: Complete Model (L1+L2+L3+H+L)
 
 ### Best Two regressor model
 
-Best Two Regression Model L1-L3
+Best Two Regression Model: L1-L3
 
 ## Roach
 
@@ -115,10 +115,12 @@ subsets(Roach.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 
 ### Best Models
 
-Best Model - Width + Length Three
+Best Model: Width + Length Three
 
 ### Best Two regressor model
 
-Best Two Regression Model - Length 3 + Width
+Best Two Regression Model: Length 3 + Width
 
 ## Final Summary Statements
+
+The results presented here reveal significant variation in predictive metrics among different fish species. Specifically, for Perch, Pike, and Roach, distinct models emerged as the most effective in predicting their overall weight. Automation was key in determining the model of best fit.
